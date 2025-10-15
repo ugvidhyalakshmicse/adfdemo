@@ -4,6 +4,9 @@
 	"parameters": {
 		"factoryName": {
 			"value": "viddemofact"
+		},
+		"LS_BLOB_STORAGE_connectionString": {
+			"value": ""
 		}
 	}
 }

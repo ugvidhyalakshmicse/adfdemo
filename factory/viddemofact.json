@@ -1,0 +1,9 @@
+{
+	"name": "viddemofact",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "90520f85-c975-4eed-ace0-044673b706f3",
+		"tenantId": "6f0de338-b90e-416f-8afe-6a650fc5707f"
+	}
+}

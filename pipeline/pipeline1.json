@@ -44,7 +44,7 @@
 							{
 								"source": {
 									"name": "EmployeeID",
-									"type": "Int16",
+									"type": "String",
 									"physicalType": "String"
 								},
 								"sink": {
@@ -80,7 +80,7 @@
 							{
 								"source": {
 									"name": "Salary",
-									"type": "Int16",
+									"type": "String",
 									"physicalType": "String"
 								},
 								"sink": {
@@ -92,7 +92,7 @@
 							{
 								"source": {
 									"name": "JoiningDate",
-									"type": "Date",
+									"type": "String",
 									"physicalType": "String"
 								},
 								"sink": {

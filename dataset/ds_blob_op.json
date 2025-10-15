@@ -1,0 +1,24 @@
+{
+	"name": "ds_blob_op",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LS_BLOB_STORAGE",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "emp.csv",
+				"folderPath": "outputfiles",
+				"container": "condemoproject"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}

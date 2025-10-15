@@ -9,7 +9,10 @@
 		"type": "DelimitedText",
 		"typeProperties": {
 			"location": {
-				"type": "AzureBlobStorageLocation"
+				"type": "AzureBlobStorageLocation",
+				"fileName": "emp.csv",
+				"folderPath": "outputfiles",
+				"container": "condemoproject"
 			},
 			"columnDelimiter": ",",
 			"escapeChar": "\\",
